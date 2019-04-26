@@ -1,10 +1,10 @@
 import React from 'react';
-import Navigation from '../elements/Navigation/Navigation';
-import MovieInfo from '../elements/MovieInfo/MovieInfo';
-import MovieInfoBar from '../elements/MovieInfoBar/MovieInfoBar';
-import FourColGrid from '../elements/FourColGrid/FourColGrid.js';
-import Actor from '../elements/Actor/Actor';
-import Spinner from '../elements/Spinner/Spinner';
+import Navigation from '../elements/navigation/Navigation';
+import MovieInfo from '../elements/movieInfo/MovieInfo';
+import MovieInfoBar from '../elements/movieInfoBar/MovieInfoBar';
+import FourColGrid from '../elements/fourColGrid/FourColGrid.js';
+import Actor from '../elements/actor/Actor';
+import Spinner from '../elements/spinner/Spinner';
 import './Movie.css';
 
 const Movie = ({ movie, directors, actors, loading }) => (

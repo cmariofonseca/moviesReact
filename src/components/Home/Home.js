@@ -1,10 +1,10 @@
 import React from 'react';
-import HeroImage from '../elements/HeroImage/HeroImage';
-import SearchBar from '../elements/SearchBar/SearchBar';
-import FourColGrid from '../elements/FourColGrid/FourColGrid';
-import MovieThumb from '../elements/MovieThumb/MovieThumb';
-import LoadMoreBtn from '../elements/LoadMoreBtn/LoadMoreBtn';
-import Spinner from '../elements/Spinner/Spinner';
+import HeroImage from '../elements/heroImage/HeroImage';
+import SearchBar from '../elements/searchBar/SearchBar';
+import FourColGrid from '../elements/fourColGrid/FourColGrid';
+import MovieThumb from '../elements/movieThumb/MovieThumb';
+import LoadMoreBtn from '../elements/loadMoreBtn/LoadMoreBtn';
+import Spinner from '../elements/spinner/Spinner';
 import { IMAGE_BASE_URL, POSTER_SIZE, BACKDROP_SIZE } from '../../config';
 import './Home.css';
 

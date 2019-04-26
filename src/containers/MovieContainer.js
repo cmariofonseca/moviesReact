@@ -5,8 +5,8 @@ import {
   showLoadingSpinner,
   clearMovie,
   setMoviePersistedState
-} from '../actions';
-import Movie from '../components/Movie/Movie';
+} from '../store/actions';
+import Movie from '../components/movie/Movie';
 
 class MovieContainer extends Component {
   componentDidMount() {

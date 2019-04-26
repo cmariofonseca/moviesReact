@@ -7,8 +7,8 @@ import {
   clearMovies,
   loadMoreMovies,
   setPopularPersistedState
-} from '../actions';
-import Home from '../components/Home/Home';
+} from '../store/actions';
+import Home from '../components/home/Home';
 
 class HomeContainer extends Component {
   componentDidMount(){

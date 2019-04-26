@@ -6,8 +6,8 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import promiseMiddleware from 'redux-promise';
 
-import App from './components/App/App';
-import reducers from './reducers';
+import App from './components/app/App';
+import reducers from './store/reducers';
 
 import './index.css';
 

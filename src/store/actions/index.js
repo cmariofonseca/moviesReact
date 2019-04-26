@@ -1,5 +1,5 @@
-import { API_URL, API_KEY } from '../config';
-import { fetchMovies } from '../helpers';
+import { API_URL, API_KEY } from '../../config';
+import { fetchMovies } from '../../helpers';
 
 // action types for Home
 export const GET_POPULAR_MOVIES = 'GET_POPULAR_MOVIES';
